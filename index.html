@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday, Simphiwe ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <style>
+
+        /* =====================================================
+           RESET
+        ===================================================== */
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: "Poppins", sans-serif;
+            background: #120d11;
+            color: #fff;
+            line-height: 1.8;
+        }
+
+
+        /* =====================================================
+           BACKGROUND IMAGE
+        ===================================================== */
+
+        body::before {
+
+            content: "";
+
+            position: fixed;
+
+            inset: 0;
+
+            z-index: -3;
+
+            background-image: url("simphiwe.jpg");
+
+            background-size: cover;
+
+            background-position: center;
+
+            background-repeat: no-repeat;
+
+            transform: scale(1.03);
+
+        }
+
+
+        body::after {
+
+            content: "";
+
+            position: fixed;
+
+            inset: 0;
+
+            z-index: -2;
+
+            background:
+                linear-gradient(
+                    rgba(24, 10, 17, 0.68),
+                    rgba(24, 10, 17, 0.84)
+                );
+
+        }
+
+
+        /* =====================================================
+           GENERAL
+        ===================================================== */
+
+        .section {
+
+            min-height: 100vh;
+
+            padding: 120px 25px;
+
+            display: flex;
+
+            align-items: center;
+
+        }
+
+
+        .content {
+
+            width: 100%;
+
+            max-width: 900px;
+
+            margin: auto;
+
+        }
+
+
+        .label {
+
+            text-transform: uppercase;
+
+            letter-spacing: 4px;
+
+            font-size: 11px;
+
+            color: #f0b5c8;
+
+            margin-bottom: 25px;
+
+        }
+
+
+        h1,
+        h2,
+        h3 {
+
+            font-family: "Cormorant Garamond", serif;
+
+            font-weight: 500;
+
+        }
+
+
+        h2 {
+
+            font-size: clamp(48px, 7vw, 78px);
+
+            line-height: 1;
+
+            margin-bottom: 45px;
+
+        }
+
+
+        h2 span {
+
+            color: #f0a9c0;
+
+        }
+
+
+        p {
+
+            color: #f4e8ed;
+
+        }
+
+
+        /* =====================================================
+           HERO
+        ===================================================== */
+
+        .hero {
+
+            min-height: 100vh;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            text-align: center;
+
+            padding: 30px;
+
+        }
+
+
+        .hero-content {
+
+            max-width: 900px;
+
+            animation: fadeUp 1.4s ease;
+
+        }
+
+
+        .hero .label {
+
+            margin-bottom: 30px;
+
+        }
+
+
+        .hero h1 {
+
+            font-size: clamp(65px, 12vw, 130px);
+
+            line-height: 0.85;
+
+            margin-bottom: 35px;
+
+            text-shadow:
+                0 4px 30px rgba(0,0,0,0.4);
+
+        }
+
+
+        .hero h1 span {
+
+            display: block;
+
+            color: #f0a9c0;
+
+        }
+
+
+        .hero-subtitle {
+
+            max-width: 650px;
+
+            margin: auto;
+
+            font-size: 17px;
+
+            color: #f8e9ef;
+
+        }
+
+
+        .scroll-button {
+
+            margin-top: 45px;
+
+            padding: 14px 30px;
+
+            border: 1px solid rgba(255,255,255,0.55);
+
+            border-radius: 50px;
+
+            background: rgba(255,255,255,0.08);
+
+            color: white;
+
+            font-family: inherit;
+
+            cursor: pointer;
+
+            backdrop-filter: blur(10px);
+
+            transition: 0.3s;
+
+        }
+
+
+        .scroll-button:hover {
+
+            background: rgba(240,169,192,0.3);
+
+            transform: translateY(-3px);
+
+        }
+
+
+        /* =====================================================
+           GLASS CONTENT BOX
+        ===================================================== */
+
+        .glass {
+
+            background: rgba(24, 10, 17, 0.48);
+
+            border: 1px solid rgba(255,255,255,0.13);
+
+            border-radius: 28px;
+
+            padding: 55px;
+
+            backdrop-filter: blur(12px);
+
+            -webkit-backdrop-filter: blur(12px);
+
+            box-shadow:
+                0 25px 80px rgba(0,0,0,0.25);
+
+        }
+
+
+        /* =====================================================
+           MAIN MESSAGE
+        ===================================================== */
+
+        .message p {
+
+            font-size: 17px;
+
+            color: #f5e9ee;
+
+            margin-bottom: 25px;
+
+        }
+
+
+        .message .opening {
+
+            font-family: "Cormorant Garamond", serif;
+
+            font-size: 36px;
+
+            color: #f0b1c5;
+
+        }
+
+
+        .highlight {
+
+            font-family: "Cormorant Garamond", serif;
+
+            font-size: 40px !important;
+
+            line-height: 1.2;
+
+            color: #f0a9c0 !important;
+
+            margin: 40px 0 !important;
+
+        }
+
+
+        /* =====================================================
+           ADMIRATION
+        ===================================================== */
+
+        .cards {
+
+            display: grid;
+
+            grid-template-columns: repeat(2, 1fr);
+
+            gap: 20px;
+
+        }
+
+
+        .card {
+
+            padding: 35px;
+
+            border-radius: 22px;
+
+            background: rgba(255,255,255,0.08);
+
+            border: 1px solid rgba(255,255,255,0.12);
+
+            backdrop-filter: blur(10px);
+
+            transition: 0.3s;
+
+        }
+
+
+        .card:hover {
+
+            transform: translateY(-6px);
+
+            background: rgba(255,255,255,0.12);
+
+        }
+
+
+        .card-number {
+
+            font-size: 12px;
+
+            color: #efabc1;
+
+            margin-bottom: 12px;
+
+        }
+
+
+        .card h3 {
+
+            font-size: 34px;
+
+            margin-bottom: 12px;
+
+            color: #fff;
+
+        }
+
+
+        .card p {
+
+            font-size: 14px;
+
+            color: #ecdde3;
+
+        }
+
+
+        /* =====================================================
+           MEMORY
+        ===================================================== */
+
+        .memory-story {
+
+            max-width: 760px;
+
+        }
+
+
+        .memory-story p {
+
+            font-size: 17px;
+
+            color: #f4e8ed;
+
+            margin-bottom: 27px;
+
+        }
+
+
+        .memory-highlight {
+
+            font-family: "Cormorant Garamond", serif;
+
+            font-size: 42px !important;
+
+            line-height: 1.15;
+
+            color: #f0a9c0 !important;
+
+            margin: 45px 0 !important;
+
+        }
+
+
+        .memory-date {
+
+            font-size: 12px !important;
+
+            text-transform: uppercase;
+
+            letter-spacing: 3px;
+
+            color: #efabc1 !important;
+
+        }
+
+
+        /* =====================================================
+           BLESSINGS
+        ===================================================== */
+
+        .blessings {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 22px;
+
+        }
+
+
+        .blessing {
+
+            display: flex;
+
+            gap: 18px;
+
+            align-items: flex-start;
+
+            padding: 22px;
+
+            background: rgba(255,255,255,0.07);
+
+            border-radius: 16px;
+
+            border: 1px solid rgba(255,255,255,0.1);
+
+        }
+
+
+        .blessing-symbol {
+
+            color: #f0a9c0;
+
+            font-size: 20px;
+
+        }
+
+
+        .blessing p {
+
+            font-size: 15px;
+
+        }
+
+
+        /* =====================================================
+           FINAL
+        ===================================================== */
+
+        .final {
+
+            text-align: center;
+
+            justify-content: center;
+
+        }
+
+
+        .final .content {
+
+            max-width: 800px;
+
+        }
+
+
+        .final h2 {
+
+            margin-bottom: 30px;
+
+        }
+
+
+        .final-message {
+
+            font-family: "Cormorant Garamond", serif;
+
+            font-size: 30px;
+
+            line-height: 1.4;
+
+            color: #f6e9ee;
+
+            margin-bottom: 30px;
+
+        }
+
+
+        .heart {
+
+            font-size: 65px;
+
+            color: #ef9fb8;
+
+            margin: 35px 0;
+
+            animation: heartbeat 2s infinite;
+
+        }
+
+
+        .final h3 {
+
+            font-size: 45px;
+
+            margin-bottom: 8px;
+
+        }
+
+
+        .signature {
+
+            font-size: 14px;
+
+            color: #d8bdc7;
+
+        }
+
+
+        /* =====================================================
+           FOOTER
+        ===================================================== */
+
+        footer {
+
+            text-align: center;
+
+            padding: 30px 20px;
+
+            background: rgba(10,5,8,0.7);
+
+        }
+
+
+        footer p {
+
+            font-size: 11px;
+
+            color: #bda6ae;
+
+        }
+
+
+        /* =====================================================
+           ANIMATIONS
+        ===================================================== */
+
+        @keyframes fadeUp {
+
+            from {
+
+                opacity: 0;
+
+                transform: translateY(35px);
+
+            }
+
+            to {
+
+                opacity: 1;
+
+                transform: translateY(0);
+
+            }
+
+        }
+
+
+        @keyframes heartbeat {
+
+            0% {
+                transform: scale(1);
+            }
+
+            15% {
+                transform: scale(1.13);
+            }
+
+            30% {
+                transform: scale(1);
+            }
+
+            45% {
+                transform: scale(1.13);
+            }
+
+            60% {
+                transform: scale(1);
+            }
+
+        }
+
+
+        /* =====================================================
+           MOBILE
+        ===================================================== */
+
+        @media (max-width: 700px) {
+
+            .section {
+
+                padding: 80px 18px;
+
+            }
+
+
+            .glass {
+
+                padding: 30px 22px;
+
+                border-radius: 20px;
+
+            }
+
+
+            .hero {
+
+                padding: 25px 18px;
+
+            }
+
+
+            .hero h1 {
+
+                font-size: 68px;
+
+            }
+
+
+            .hero-subtitle {
+
+                font-size: 15px;
+
+            }
+
+
+            h2 {
+
+                font-size: 50px;
+
+            }
+
+
+            .cards {
+
+                grid-template-columns: 1fr;
+
+            }
+
+
+            .card {
+
+                padding: 27px;
+
+            }
+
+
+            .message p,
+            .memory-story p {
+
+                font-size: 15px;
+
+            }
+
+
+            .highlight,
+            .memory-highlight {
+
+                font-size: 34px !important;
+
+            }
+
+
+            .final-message {
+
+                font-size: 25px;
+
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         HERO
+    ===================================================== -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="label">
+                A little something for you...
+            </p>
+
+
+            <h1>
+                Happy Birthday,
+                <span>Simphiwe ❤️</span>
+            </h1>
+
+
+            <p class="hero-subtitle">
+
+                Today isn't just another day.
+                Today is a celebration of you —
+                the woman you are and the beautiful
+                woman you're becoming.
+
+            </p>
+
+
+            <button
+                class="scroll-button"
+                onclick="document.getElementById('message').scrollIntoView({behavior:'smooth'})"
+            >
+
+                There's something I want you to read ↓
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         MESSAGE
+    ===================================================== -->
+
+    <section
+        class="section"
+        id="message"
+    >
+
+        <div class="content">
+
+            <div class="glass">
+
+                <p class="label">
+                    01 — A message for you
+                </p>
+
+
+                <h2>
+                    Today, I celebrate
+                    <span>you.</span>
+                </h2>
+
+
+                <div class="message">
+
+                    <p class="opening">
+                        Happy birthday, my love. ❤️
+                    </p>
+
+
+                    <p>
+                        I honestly don't know where to begin because
+                        there is so much I could say about you.
+                    </p>
+
+
+                    <p>
+                        But today, more than anything, I want you to
+                        know that I appreciate you. Not simply because
+                        of how beautiful you are, but because of the
+                        person you are.
+                    </p>
+
+
+                    <p>
+                        I love your mind. I love the way you think,
+                        the way you see things and the conversations
+                        we have. There is something about getting to
+                        know the person behind everything that makes
+                        me appreciate you even more.
+                    </p>
+
+
+                    <p>
+                        I appreciate your heart, your kindness, your
+                        personality, your ambition and even the little
+                        things about you that you probably don't think
+                        twice about.
+                    </p>
+
+
+                    <p>
+                        And one thing I've always believed is that
+                        there is so much more ahead of you. There is
+                        a woman you're becoming, and honestly, I can't
+                        wait to see the person you grow into.
+                    </p>
+
+
+                    <p>
+                        I remember telling you before that I couldn't
+                        wait to experience the kind of woman you would
+                        become in the years to come.
+                    </p>
+
+
+                    <p class="highlight">
+                        I still mean every word of that.
+                    </p>
+
+
+                    <p>
+                        So today, I don't want you thinking about
+                        everything that still needs to happen. I want
+                        you to look at yourself and appreciate the
+                        person standing here today.
+                    </p>
+
+
+                    <p>
+                        You have so much ahead of you, Simphiwe.
+                        So many places to go, things to learn,
+                        dreams to chase and memories still waiting
+                        to be made.
+                    </p>
+
+
+                    <p>
+                        I hope this new chapter brings you closer to
+                        the woman you want to become.
+                    </p>
+
+
+                    <p>
+                        And I hope you never forget that there are
+                        people who genuinely appreciate having you
+                        in their lives.
+                    </p>
+
+
+                    <p>
+                        I am one of those people.
+                    </p>
+
+
+                    <p>
+                        Happy birthday, my love.
+                        I'm grateful for you. Uyathandwa kaTshabalala. ❤️
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         ADMIRATION
+    ===================================================== -->
+
+    <section class="section">
+
+        <div class="content">
+
+            <div class="glass">
+
+                <p class="label">
+                    02 — What I appreciate about you
+                </p>
+
+
+                <h2>
+                    I don't love your beauty alone,
+                    <span>I love who you are.</span>
+                </h2>
+
+
+                <div class="cards">
+
+
+                    <div class="card">
+
+                        <p class="card-number">
+                            01
+                        </p>
+
+
+                        <h3>
+                            Your mind
+                        </h3>
+
+
+                        <p>
+                            One of the things I appreciate most about
+                            you is your mind. I love the conversations
+                            we have and the way you think about things.
+                            There is so much depth to you, and getting
+                            to know that side of you has always meant
+                            a lot to me.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="card">
+
+                        <p class="card-number">
+                            02
+                        </p>
+
+
+                        <h3>
+                            Your heart
+                        </h3>
+
+
+                        <p>
+                            You have a heart that I genuinely
+                            appreciate. The way you care, the way you
+                            connect with people and the kindness you
+                            carry are some of the things that make you
+                            the woman you are.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="card">
+
+                        <p class="card-number">
+                            03
+                        </p>
+
+
+                        <h3>
+                            Your growth
+                        </h3>
+
+
+                        <p>
+                            I love watching you grow. You are still
+                            becoming the woman you're meant to be,
+                            and I believe there is so much greatness
+                            waiting for you in the years ahead.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="card">
+
+                        <p class="card-number">
+                            04
+                        </p>
+
+
+                        <h3>
+                            Simply you
+                        </h3>
+
+
+                        <p>
+                            I appreciate the little things too, 
+                            your personality, your way of talking,
+                            your sense of humour, your thoughts,
+                            your presence and all those small things
+                            that make you uniquely you.
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         MEMORY
+    ===================================================== -->
+
+    <section class="section">
+
+        <div class="content">
+
+            <div class="glass">
+
+                <p class="label">
+                    03 — One of my favourite memories
+                </p>
+
+
+                <h2>
+                    That day will always have a
+                    <span>special place in my heart.</span>
+                </h2>
+
+
+                <div class="memory-story">
+
+
+                    <p class="memory-date">
+                        Earlier this year
+                    </p>
+
+
+                    <p>
+                        There was a day earlier this year, the day
+                        before I came to Cape Town, that I don't think
+                        I'll ever forget.
+                    </p>
+
+
+                    <p>
+                        I was looking after my aunt's place emkhonto, 'emzini wethu', and you
+                        came over to see me.
+                    </p>
+
+
+                    <p>
+                        You were wearing a black dress.
+                    </p>
+
+
+                    <p class="memory-highlight">
+                        It was my first time seeing you in a dress...
+                        and honestly, what a beautiful woman.
+                    </p>
+
+
+                    <p>
+                        We ended up lying there on the bed, with your
+                        head resting on my chest.
+                    </p>
+
+
+                    <p>
+                        Nothing extraordinary was happening. We
+                        weren't doing anything crazy. We were simply
+                        together.
+                    </p>
+
+
+                    <p>
+                        But somehow, that became one of the best days
+                        of my life.
+                    </p>
+
+
+                    <p>
+                        I remember you were a little stressed about
+                        school because VUT had denied you access to
+                        register. We were both worried about what was
+                        going to happen and what your next step would
+                        be.
+                    </p>
+
+
+                    <p>
+                        Little did we know that only a few weeks later,
+                        the University of Mpumalanga would accept you
+                        and you would start a completely different
+                        chapter of your life.
+                    </p>
+
+
+                    <p>
+                        Looking back now, that's probably one of the
+                        things I love most about that memory.
+                    </p>
+
+
+                    <p>
+                        We had no idea what was coming next. We didn't
+                        know where life was going to take you. We were
+                        just there, together, lying on that bed, with
+                        your head on my chest, talking and worrying
+                        about school.
+                    </p>
+
+
+                    <p class="memory-highlight">
+                        Just you and me, a black dress,
+                        your head on my chest,
+                        and a moment I wish I could experience
+                        one more time.
+                    </p>
+
+
+                    <p>
+                        I don't think you realised how special that
+                        day was to me.
+                    </p>
+
+
+                    <p>
+                        But it is one of those memories that I will
+                        always carry with me.
+                    </p>
+
+
+                    <p>
+                        And whenever I think about it, I don't think
+                        about anything complicated.
+                    </p>
+
+
+                    <p>
+                        I just remember you.
+                    </p>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         BLESSINGS
+    ===================================================== -->
+
+    <section class="section">
+
+        <div class="content">
+
+            <div class="glass">
+
+                <p class="label">
+                    04 — My wishes for you
+                </p>
+
+
+                <h2>
+                    May this new chapter of your life
+                    <span>be a beautiful one.</span>
+                </h2>
+
+
+                <div class="blessings">
+
+
+                    <div class="blessing">
+
+                        <span class="blessing-symbol">
+                            ✦
+                        </span>
+
+                        <p>
+                            May God guide you through every step you
+                            take and give you the wisdom and strength
+                            to make the decisions that are right for
+                            you.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="blessing">
+
+                        <span class="blessing-symbol">
+                            ✦
+                        </span>
+
+                        <p>
+                            May you continue discovering yourself,
+                            learning more about who you are and
+                            becoming a woman you can be proud of.
+                            And phezu kwako konke, may God bring peace
+                            into your life.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="blessing">
+
+                        <span class="blessing-symbol">
+                            ✦
+                        </span>
+
+                        <p>
+                            May life give you many reasons to laugh,
+                            smile, love and create memories that you
+                            will look back on with happiness.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="blessing">
+
+                        <span class="blessing-symbol">
+                            ✦
+                        </span>
+
+                        <p>
+                            May beautiful opportunities find their
+                            way to you, and may you have the courage
+                            to chase them even when the road ahead
+                            looks difficult.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="blessing">
+
+                        <span class="blessing-symbol">
+                            ✦
+                        </span>
+
+                        <p>
+                            And above everything else, I hope you
+                            never forget your worth. You are valuable,
+                            you are appreciated, and you deserve
+                            beautiful things in this life.
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FINAL MESSAGE
+    ===================================================== -->
+
+    <section class="section final">
+
+        <div class="content">
+
+            <div class="glass">
+
+                <p class="label">
+                    05 — Before you go
+                </p>
+
+
+                <h2>
+                    There's just one more thing
+                    <span>I want you to know.</span>
+                </h2>
+
+
+                <p class="final-message">
+
+                    As you step into another year of your life,
+                    I hope you never forget how special you are.
+
+                </p>
+
+
+                <p class="final-message">
+
+                    Keep learning.
+                    Keep growing.
+                    Keep dreaming.
+
+                </p>
+
+
+                <p class="final-message">
+
+                    There is so much life ahead of you,
+                    and I hope you get to experience every
+                    beautiful part of it.
+
+                </p>
+
+
+                <p class="final-message">
+
+                    And when you look back one day,
+                    I hope you can smile at the person
+                    you were, the woman you became,
+                    and all the moments that brought you there.
+
+                </p>
+
+
+                <div class="heart">
+                    ♥
+                </div>
+
+
+                <h3>
+                    Happy Birthday, Mthimkhulu.
+                </h3>
+
+
+                <p class="signature">
+
+                    With love, always. ❤️
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ===================================================== -->
+
+    <footer>
+
+        <p>
+            Made with ❤️, memories, and a little bit of code by Sfiso Tshabalala.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
